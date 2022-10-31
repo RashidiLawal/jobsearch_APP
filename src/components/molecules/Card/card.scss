@@ -1,0 +1,59 @@
+.Cards_holdder {
+    @apply mt-[3.75rem] pl-[7.9375rem] pr-32;
+
+
+.card_title {
+    @apply flex pb-5 pr-10 pl-10 pt-10;
+
+    .job_title {
+        @apply grid gap-2;
+
+
+        .briefy {
+           @apply flex gap-10 font-normal text-xl not-italic text-[#666666] leading-6 tracking-[0.03125rem]
+        }
+    }
+
+    .company_name {
+        @apply grid justify-items-end ml-[18.25rem]
+    }
+}
+}
+
+
+.card_body {
+    @apply flex;
+
+
+    .card_logo {
+        @apply w-[12.0625rem] pt-[2.875rem]
+    }
+
+
+    .card_detail {
+        @apply grid pt-[1.875rem];
+
+
+
+        .summary {
+            @apply flex;
+
+              
+
+            .requirement {
+                @apply flex
+            }
+
+            .shareBut {
+                @apply flex
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

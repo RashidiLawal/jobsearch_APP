@@ -1,0 +1,79 @@
+.footer {
+  @apply w-full bg-primary;
+}
+
+.morespan {
+  @apply flex justify-between items-center col-span-2
+  border-t border-ash-22;
+}
+
+.copyright {
+  @apply text-white text-lg tracking-[0.01875rem] font-medium 
+  ml-[9.1875rem] mt-[6.6875rem] font-inter h-max w-max;
+}
+
+.social {
+  @apply flex justify-end  mr-[6.6875rem] mb-[1.875rem] mt-[6.6875rem] h-max w-max;
+}
+
+.sospan {
+  @apply ml-3.5 w-[3.125rem] h-[3.125rem] bg-ahs-22 hover:opacity-80 hover:ease-in-out rounded-full;
+}
+
+.mager {
+  @apply p-[1.041875rem];
+}
+
+.major {
+  @apply flex mr-[8.5625rem];
+
+  .firstholder {
+    @apply gap-[1.0625rem] mt-[3.6875rem];
+  }
+
+  .sectional {
+    @apply flex;
+  }
+}
+
+.onit {
+  @apply hover:opacity-80 hover:transition-opacity;
+}
+
+.secondholder,
+.thirdholder,
+.forthholder,
+.fifthholder {
+  @apply mt-[3.9375rem] font-inter not-italic text-[1.25rem] inline-block;
+}
+
+.secondholder1,
+.thirdholder1,
+.forthholder1,
+.fifthholder1 {
+  @apply flex flex-col mt-5 gap-y-5 font-inter font-normal not-italic text-[1.125rem] text-ash23  leading-6 tracking-[0.0375rem];
+}
+
+.secondholder {
+  @apply mr-[7.8125rem] w-[8.9375rem];
+}
+
+.thirdholder {
+  @apply mr-[7.3125rem] w-[8.9375rem] absolute right-[48.6rem];
+}
+
+.forthholder {
+  @apply absolute mr-[2.375rem] w-[15.0625rem] right-[27rem];
+}
+
+.fifthholder {
+  @apply absolute w-[10.3125rem] right-[8.6rem];
+}
+
+.big1 {
+  @apply font-medium text-white;
+}
+
+.fusta {
+  @apply w-max flex justify-start ml-10 flex-wrap gap-[1.0625rem];
+}

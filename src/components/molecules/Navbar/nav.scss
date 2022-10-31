@@ -1,0 +1,38 @@
+.for-Body {
+  @apply relative bg-cover bg-white m-0 p-0 font-poppins w-[94.5rem] h-[300.4375rem];
+}
+
+
+.navbar {
+  @apply w-full pb-[2.125rem] pt-[2.0625rem] bg-ash-22 grid grid-rows-1 grid-cols-2 items-center;
+}
+
+.navbarUl {
+  @apply flex items-center;
+}
+
+.brand-title {
+  @apply flex gap-[1.0625rem] font-futura justify-start ml-10 flex-wrap;
+}
+
+.navbar-links {
+  @apply flex flex-row  justify-end mr-10 font-poppins font-semibold not-italic text-[#323232] flex-wrap;
+}
+
+.image-left {
+  @apply w-[4.8562rem];
+}
+
+.jobspan {
+  @apply w-[3.125rem] text-primary text-[2.125475rem] pt-2 font-medium font-poppins not-italic;
+}
+
+
+.grinhome {
+  @apply  top-0 mr-[2.1875rem] p-3 py-6 hover:text-primary focus:text-primary;
+}
+
+.contact {
+  @apply ml-8 mr-16 p-3;
+}
+  

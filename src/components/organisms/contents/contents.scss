@@ -1,0 +1,31 @@
+.host {
+    @apply flex gap-[0.8125rem] mb-[5.125rem];
+}
+
+
+.inputhost {
+    @apply grid grid-cols-1 w-[36.5rem];
+}
+
+.leftop {
+    @apply flex flex-col;
+}
+
+.firstsearch {
+  @apply flex items-center justify-between text-ash-3 font-normal not-italic  font-poppins tracking-[0.016546187rem] rounded-[0.3125rem] bg-white1 border-slate-200 border-[0.0625rem] pr-6
+}
+
+
+.both {
+    @apply grid grid-cols-2 mt-[20.625rem]  
+}
+
+.between {
+    @apply mr-[1.875rem] rounded-[0.3125rem] bg-white1 border-slate-200 border-[0.0625rem]
+}
+
+
+
+
+
+

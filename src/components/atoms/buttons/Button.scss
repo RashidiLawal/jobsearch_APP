@@ -1,0 +1,9 @@
+.Button {
+    @apply outline-none bg-primary text-white w-[8.0625rem] py-3 rounded-[0.33rem];
+
+  &.outline {
+      @apply bg-white text-primary border-primary
+  }
+}
+
+
