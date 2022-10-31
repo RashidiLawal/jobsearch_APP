@@ -285,12 +285,12 @@ export const elegants = [
     update: <span style={updateStyles}>Our news update</span>,
     elegant: (
       <div style={stylus}>
-        <h3>The most elegant expression of Apple</h3>
-        <h3>Watch returns with two iconic materials</h3>
-        <h3>— titanium and ceramic. The most elegant</h3>
-        <h3>expression of Apple Watch returns with two</h3>
-        <h3>iconic materials</h3>
-        <h3>— titanium and ceramic.</h3>
+        <h6>The most elegant expression of Apple</h6>
+        <h6>Watch returns with two iconic materials</h6>
+        <h6>— titanium and ceramic. The most elegant</h6>
+        <h6>expression of Apple Watch returns with two</h6>
+        <h6>iconic materials</h6>
+        <h6>— titanium and ceramic.</h6>
       </div>
     ),
   },
