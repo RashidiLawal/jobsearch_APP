@@ -18,25 +18,6 @@ const Content2 = ({
   responsibilty,
   resWord,
 }) => {
-  const logoStyle = {
-    width: "19.3125rem",
-    "margin-left": "4.7125rem",
-    "padding-top": "3.5625rem",
-    "margin-bottom": ".5rem",
-    "margin-right": "4.853125rem",
-  };
-
-  const head = {
-    width: "186px",
-    "margin-left": "6.3125rem",
-    height: "33px",
-    "font-family": "Helvetica Neue",
-    "font-style": "normal",
-    "font-weight": "500",
-    "font-size": "32px",
-    "line-height": "33px",
-    color: "#00717D",
-  };
 
   const text = {
     "font-family": "Poppins",
@@ -104,11 +85,18 @@ const Content2 = ({
     "text-align": "left",
   };
 
+  
+
   return (
     <section className="company">
       <div>
-        <Image logoImage={logo} logo="codevillage logo" style={logoStyle} />
-        <FirstHeader words={company} style={head} />
+        <Image logoImage={logo} logo="codevillage logo" customClasses="" />
+        <FirstHeader words={company} 
+        wi="11.625rem" 
+        ml="6.3125rem" 
+        fz="2rem" 
+        co="#00717D" 
+        lh="2.0625rem" />
         <Parag text={location} style={text} />
         <Button title="More" style={but} />
       </div>

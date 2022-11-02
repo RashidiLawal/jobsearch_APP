@@ -1,16 +1,12 @@
 import React from 'react'
-import {NavLink} from "react-router-dom"
+import {NavLink, useNavigate, Link} from "react-router-dom"
 import Button from '../../atoms/buttons';
+import {useState} from 'react'
 import './nav.scss'
 
-
 const Navbar = () => {
+  const [currentPath] = useState(window.location.pathname)
 
-  let activeStyle = {
-    color: "#00717D",
-  }
-
-  // let activeClass = "#00717D"
 
   const navItems = [
     {
@@ -46,11 +42,7 @@ const Navbar = () => {
       </section>
       <section className="navbar-links">
         {navItems.map((navItem, index) => (
-          <NavLink to={navItem.path} key={index} style={({ isActive }) =>
-              isActive ? activeStyle : undefined
-            } >
-            {navItem.name}
-          </NavLink>
+          <Link to={navItem.path} className={`${currentPath == navItem.path? 'text-[#00717D]':''} grinhome`}>{navItem.name}</Link>
         ))}
         <div className="contact">
           <Button title="Login" />
