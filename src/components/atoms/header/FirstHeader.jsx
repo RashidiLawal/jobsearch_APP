@@ -1,7 +1,21 @@
 import React from "react";
 
-const FirstHeader = ({ words, style }) => {
-  return <h1 style={style}>{words}</h1>;
+const FirstHeader = ({ words, ml, mt, wi, fw, fz, lh, tt, co }) => {
+  const styler = {
+    marginLeft: ml,
+    marginTop: mt,
+    width: wi,
+    fontFamily: "Helvetica Neue",
+    fontStyle: "normal",
+    fontWeight: fw,
+    fontSize: fz,
+    lineHeight: lh,
+    letterSpacing: "0.0625rem",
+    textTransform: tt,
+    color: co,
+    "mix-blend-mode": "normal",
+  };
+  return <h1 style={styler}>{words}</h1>;
 };
 
 export default FirstHeader;
