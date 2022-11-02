@@ -1,8 +1,9 @@
 import React from 'react'
+import Layout from '../../components/templates'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <Layout>Contact</Layout>
   )
 }
 

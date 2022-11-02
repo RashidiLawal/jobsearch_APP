@@ -3,7 +3,14 @@ import {NavLink} from "react-router-dom"
 import Button from '../../atoms/buttons';
 import './nav.scss'
 
+
 const Navbar = () => {
+
+  let activeStyle = {
+    color: "#00717D",
+  }
+
+  // let activeClass = "#00717D"
 
   const navItems = [
     {
@@ -39,7 +46,9 @@ const Navbar = () => {
       </section>
       <section className="navbar-links">
         {navItems.map((navItem, index) => (
-          <NavLink to={navItem.path} key={index} className="grinhome">
+          <NavLink to={navItem.path} key={index} style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+            } >
             {navItem.name}
           </NavLink>
         ))}

@@ -1,8 +1,9 @@
 import React from 'react'
+import Layout from '../../components/templates'
 
 const Jobs = () => {
   return (
-    <div>Jobs</div>
+    <Layout>Jobs</Layout>
   )
 }
 
