@@ -3,11 +3,11 @@ import './search.scss'
 
 
 
-const Search = ({ caret, logo, placeholder }) => {
+const Search = ({ caret, logo}) => {
   return (
     <section className='search1'>
-      <input type="text" className="secondsearch" placeholder={placeholder} />
-      <img src={caret} alt={logo} />
+      <input type="text" className="secondsearch" placeholder="Search the web" />
+      <img src="./Icon.png" alt="searchIcon" />
     </section>
   );
 };

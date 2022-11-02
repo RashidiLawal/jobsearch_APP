@@ -1,7 +1,7 @@
 import React from "react";
 import "./parag.scss";
 
-const Parag = ({ text, wi, ds, as, ta, fw, fz, lh, co }) => {
+const Parag = ({ text, wi, ds, as, ta, fw, fz, lh, co, mt, ls }) => {
   const styler = {
     width: wi,
     display: ds,
@@ -9,13 +9,14 @@ const Parag = ({ text, wi, ds, as, ta, fw, fz, lh, co }) => {
     textAlign: ta,
     fontFamily: "Poppins",
     fontStyle: "normal",
-    fontSeight: fw,
+    fontWeight: fw,
     fontSize: fz,
     lineHeight: lh,
-    letterSpacing: "-0.025rem",
+    letterSpacing: ls,
     color: co,
     mixBlendMode: "normal",
     opacity: "0.8",
+    marginTop: mt,
   };
   return (
     <p className="parag" style={styler}>

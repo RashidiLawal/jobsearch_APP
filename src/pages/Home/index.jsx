@@ -1,4 +1,3 @@
-import React, { Children } from "react";
 import Layout from "../../components/templates";
 import Contents from "../../components/organisms/contents";
 import Parag from "../../components/atoms/paragraph/Parag";
@@ -9,24 +8,6 @@ import { recentJobs } from "../../Data/objectData";
 import Content2 from "../../components/organisms/content2nd";
 
 const Home = () => {
-  const buta = {
-    display: "grid",
-    "align-self": "center",
-    width: "314.4px",
-    color: "#00717D",
-    background: "#FFFFFF",
-    border: "1px solid #00717D",
-    borderRadius: "5px",
-    fontFamily: "Poppins",
-    fontStyle: "normal",
-    fontWeight: "500",
-    fontSize: "20px",
-    lineHeight: "30px",
-    textAlign: "center",
-    marginTop: "4.75rem",
-    marginBottom: "8.5rem",
-  };
-
   return (
     <Layout
       children={
@@ -42,6 +23,7 @@ const Home = () => {
             fz="1.5rem"
             lh="2.25rem"
             co="#00717D"
+            ls="-0.025rem"
           />
           <FirstHeader
             words="Recently Posted Jobs"
@@ -57,7 +39,7 @@ const Home = () => {
           {recentJobs.map((recentJob, index) => (
             <Content2 key={index} {...recentJob} />
           ))}
-          <Button title="More Updates" style={buta} />
+          <Button title="More Updates" customClasses="butat" />
         </section>
       }
     />

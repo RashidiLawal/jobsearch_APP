@@ -1,12 +1,10 @@
-import React from 'react'
-import './image.scss'
+import React from "react";
+import "./image.scss";
 
-const Image = ({logoImage, logo, style}) => {
+const Image = ({ logoImage, logo, customClasses }) => {
   return (
-    <span>
-      <img src={logoImage} alt={logo} style={style}/>
-    </span>
+    <img src={logoImage} alt={logo} className={`${customClasses}`} />
   );
-}
+};
 
-export default Image
+export default Image;

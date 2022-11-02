@@ -12,19 +12,25 @@
 }
 
 .firstsearch {
-  @apply flex items-center justify-between text-ash-3 font-normal not-italic  font-poppins tracking-[0.016546187rem] rounded-[0.3125rem] bg-white1 border-slate-200 border-[0.0625rem] pr-6
+  @apply flex items-center justify-between text-sm text-ash-3 font-normal not-italic  font-poppins tracking-[0.016546187rem] rounded-[0.3125rem] bg-white1 border-slate-200 border-[0.0625rem] px-5 box-border w-[17rem];
+
+  .select{
+      @apply border-none outline-0 bg-white1 w-[15.5rem] text-ash-3 font-normal not-italic  font-poppins 
+  }
 }
 
 
 .both {
-    @apply grid grid-cols-2 mt-[20.625rem]  
+    @apply grid grid-cols-2 mt-[20.625rem] gap-[1.875rem]
 }
 
 .between {
-    @apply mr-[1.875rem] rounded-[0.3125rem] bg-white1 border-slate-200 border-[0.0625rem]
+    @apply mr-[1.875rem] rounded-[0.3125rem] bg-white1 border-slate-200 border-[0.0625rem] pl-5 py-[1.3rem] text-sm text-ash-3 w-[17rem]
 }
 
-
+.buttyle{
+    @apply font-poppins mt-12 w-[22.875rem] self-center
+}
 
 
 
