@@ -9,8 +9,6 @@ import "./contents.scss";
 import Search from "../../molecules/search/Search";
 
 const Contents = () => {
-
-
   return (
     <section className="host">
       <div className="Homelogoer">
@@ -20,7 +18,11 @@ const Contents = () => {
       <div className="leftop">
         <section className="inputhost">
           <section className="both">
-              <Inputbutton placeholder="Company" type="text" customClasses="between" />
+            <Inputbutton
+              placeholder="Company"
+              type="text"
+              customClasses="between"
+            />
 
             <div className="firstsearch">
               <select className="select">

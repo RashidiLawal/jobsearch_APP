@@ -3,7 +3,6 @@ import Contents from "../../components/organisms/contents";
 import Parag from "../../components/atoms/paragraph/Parag";
 import FirstHeader from "../../components/atoms/header/FirstHeader";
 import Button from "../../components/atoms/buttons";
-import "./home.scss";
 import { recentJobs } from "../../Data/objectData";
 import Content2 from "../../components/organisms/content2nd";
 
@@ -11,7 +10,7 @@ const Home = () => {
   return (
     <Layout
       children={
-        <section className="middlecontents">
+        <section style={{ display: "flex", "flex-direction": "column" }}>
           <Contents />
           <Parag
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros nec  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros nec  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros nec  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros nec"

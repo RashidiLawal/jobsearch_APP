@@ -1,4 +1,3 @@
-
 export const recentJobs = [
   {
     logo: "./Frame 6446 (copy).svg",
@@ -6,29 +5,24 @@ export const recentJobs = [
     location: "Ilorin Nigeria ",
     occupation: "Graphic Design",
     description: "Description",
-    desWord: (
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Mi pellentesque eros nec amet ac, ac, neque, nunc.</li>
-        <li>Sodales felis</li>
-      </ul>
-    ),
+    desWord: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Mi pellentesque eros nec amet ac, ac, neque, nunc.",
+      "Sodales felis",
+    ],
     requirement: "Requirement",
-    reqWord: (
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Mi pellentesque eros nec amet ac, ac, neque, nunc.</li>
-        <li>Sodales felis</li>
-      </ul>
-    ),
+    reqWord: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Mi pellentesque eros nec amet ac, ac, neque, nunc.",
+      "Sodales felis",
+    ],
+
     responsibilty: "Responsibility",
-    resWord: (
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Mi pellentesque eros nec amet ac, ac, neque, nunc.</li>
-        <li>Sodales felis</li>
-      </ul>
-    ),
+    resWord: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Mi pellentesque eros nec amet ac, ac, neque, nunc.",
+      "Sodales felis",
+    ],
   },
   {
     logo: "./Frame 6446 (1).svg",
@@ -37,35 +31,26 @@ export const recentJobs = [
     word: "more",
     occupation: "Restraunt Manager",
     description: "Description",
-    desWord: (
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Mi pellentesque eros nec amet ac, ac, neque, nunc.</li>
-        <li>Sodales felis</li>
-      </ul>
-    ),
+    desWord: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Mi pellentesque eros nec amet ac, ac, neque, nunc.",
+      "Sodales felis",
+    ],
     requirement: "Requirement",
-    reqWord: (
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Mi pellentesque eros nec amet ac, ac, neque, nunc.</li>
-        <li>Sodales felis</li>
-      </ul>
-    ),
+    reqWord: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Mi pellentesque eros nec amet ac, ac, neque, nunc.",
+      "Sodales felis",
+    ],
+
     responsibilty: "Responsibility",
-    resWord: (
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Mi pellentesque eros nec amet ac, ac, neque, nunc.</li>
-        <li>Sodales felis</li>
-      </ul>
-    ),
+    resWord: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Mi pellentesque eros nec amet ac, ac, neque, nunc.",
+      "Sodales felis",
+    ],
   },
 ];
-
-
-
-
 
 export const newCards = [
   {
@@ -255,12 +240,9 @@ export const newCards = [
   },
 ];
 
-
-
-
 const stylus = {
   "text-align": "left",
-   width: "fit-content",
+  width: "fit-content",
   "font-family": "Poppins",
   "font-style": "normal",
   "font-weight": "400",
@@ -278,8 +260,6 @@ const updateStyles = {
   "letter-spacing": "0.025rem",
 };
 
-
-
 export const elegants = [
   {
     update: <span style={updateStyles}>Our news update</span>,
@@ -295,4 +275,3 @@ export const elegants = [
     ),
   },
 ];
-  

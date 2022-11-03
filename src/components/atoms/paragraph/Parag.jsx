@@ -1,7 +1,6 @@
 import React from "react";
-import "./parag.scss";
 
-const Parag = ({ text, wi, ds, as, ta, fw, fz, lh, co, mt, ls }) => {
+const Parag = ({ text, wi, ds, as, ta, fw, fz, lh, co, mt, ml, mb, ls }) => {
   const styler = {
     width: wi,
     display: ds,
@@ -17,6 +16,8 @@ const Parag = ({ text, wi, ds, as, ta, fw, fz, lh, co, mt, ls }) => {
     mixBlendMode: "normal",
     opacity: "0.8",
     marginTop: mt,
+    marginLeft: ml,
+    marginBottom: mb,
   };
   return (
     <p className="parag" style={styler}>

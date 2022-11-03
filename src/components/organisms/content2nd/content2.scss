@@ -1,8 +1,16 @@
 .company {
-    @apply flex flex-row  w-[72.75rem] mt-[6.625rem] self-center
+  @apply flex flex-row  w-[63.75rem] mt-[6.625rem] self-center border 
+  border-[#e5e5e5] rounded-md pl-11 pt-6;
 }
 
+.logoStyle {
+  @apply w-[19.3125rem] ml-[4.7125rem] pt-[3.5625rem] mb-[.5rem] mr-[4.853125rem];
+}
 
-.logoStyle{
-    @apply w-[19.3125rem] ml-[4.7125rem] pt-[3.5625rem] mb-[.5rem] mr-[4.853125rem]
+.but {
+  @apply ml-[2.1rem] w-[16.375rem] bg-[#00717D] rounded-[0.3125rem];
+}
+
+.divSecond {
+  @apply pl-[2.553125rem] pr-[3.771875rem] pb-[3.8125rem] pt-[1.6rem];
 }
