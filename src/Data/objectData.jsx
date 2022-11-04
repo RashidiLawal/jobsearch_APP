@@ -262,16 +262,14 @@ const updateStyles = {
 
 export const elegants = [
   {
-    update: <span style={updateStyles}>Our news update</span>,
-    elegant: (
-      <div style={stylus}>
-        <h6>The most elegant expression of Apple</h6>
-        <h6>Watch returns with two iconic materials</h6>
-        <h6>— titanium and ceramic. The most elegant</h6>
-        <h6>expression of Apple Watch returns with two</h6>
-        <h6>iconic materials</h6>
-        <h6>— titanium and ceramic.</h6>
-      </div>
-    ),
+    update: "Our news update",
+    elegant: [
+      "The most elegant expression of Apple",
+      "Watch returns with two iconic materials",
+      "— titanium and ceramic. The most elegant",
+      "expression of Apple Watch returns with two",
+      "iconic materials",
+      "— titanium and ceramic.",
+    ],
   },
 ];

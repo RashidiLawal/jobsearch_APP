@@ -1,22 +1,10 @@
-import React from 'react'
-import Image from '../../atoms/images/Image';
-import FirstHeader from '../../atoms/header/FirstHeader';
-import Parag from '../../atoms/paragraph/Parag';
-import './footer.scss'
+import React from "react";
+import Image from "../../atoms/images/Image";
+import FirstHeader from "../../atoms/header/FirstHeader";
+import Parag from "../../atoms/paragraph/Parag";
+import "./footer.scss";
 
 const Footer = () => {
-
-  const jobs = {
-    color: "#E5E5E5",
-    "font-size": "2.125475rem",
-    width: "6.875rem",
-    "padding-top": ".5rem",
-    "font-weight": "500",
-    "font-family": "Poppins, sans-serif",
-    "font-style": "normal",
-  };
-
-
   const footerara = {
     width: "18.1875rem",
     "margin-left": "7.5rem",
@@ -38,13 +26,29 @@ const Footer = () => {
         <section className="firstholder">
           <div className="fusta">
             <Image logoImage="/image 59 (Traced) (1).svg" logo="myjob" />
-            <FirstHeader words="myJobs" style={jobs} />
+            <FirstHeader
+              words="myJobs"
+              co="#E5E5E5"
+              fz="2.125475rem"
+              wi="6.875rem"
+              fw="500"
+              pt=".5rem"
+            />
           </div>
           <Parag
             text="myJobs provides real oppuniies for graduates and unemployed
           individuals to search and auquire jobs in their careers or areas of
           interest"
-            style={footerara}
+            wi="18.1875rem"
+            ml="7.5rem"
+            mr="8.5625rem"
+            mb="10.75rem"
+            fw="400"
+            ta="start"
+            fz="1.25rem"
+            co="#FFFFFF80"
+            lh="1.5rem"
+            ls="0.0375rem"
           />
         </section>
 
@@ -144,6 +148,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;

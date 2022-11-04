@@ -1,6 +1,21 @@
 import React from "react";
 
-const Parag = ({ text, wi, ds, as, ta, fw, fz, lh, co, mt, ml, mb, ls }) => {
+const Parag = ({
+  text,
+  wi,
+  ds,
+  as,
+  ta,
+  fw,
+  fz,
+  lh,
+  co,
+  mt,
+  ml,
+  mb,
+  mr,
+  ls,
+}) => {
   const styler = {
     width: wi,
     display: ds,
@@ -18,6 +33,7 @@ const Parag = ({ text, wi, ds, as, ta, fw, fz, lh, co, mt, ml, mb, ls }) => {
     marginTop: mt,
     marginLeft: ml,
     marginBottom: mb,
+    marginRight: mr,
   };
   return (
     <p className="parag" style={styler}>

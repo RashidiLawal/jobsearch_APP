@@ -1,3 +1,7 @@
-.NewsTop{
-    @apply flex pt-[6.25rem] pl-[10.625rem] mb-[5.8125rem] 
+.NewsTop {
+  @apply flex pt-[6.25rem] pl-[10.625rem] mb-[5.8125rem];
+
+  .newside {
+    @apply mt-[5.8125rem] mr-[16.625rem] font-poppins not-italic font-bold text-5xl leading-[4rem] tracking-[0.09375rem] text-primary uppercase w-[35.5625rem];
+  }
 }

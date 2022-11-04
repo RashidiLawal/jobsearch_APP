@@ -1,6 +1,6 @@
 import React from "react";
 
-const FirstHeader = ({ words, ml, mt, wi, fw, fz, lh, tt, co }) => {
+const FirstHeader = ({ words, ml, mt, wi, fw, fz, lh, tt, co, pt }) => {
   const styler = {
     marginLeft: ml,
     marginTop: mt,
@@ -14,6 +14,7 @@ const FirstHeader = ({ words, ml, mt, wi, fw, fz, lh, tt, co }) => {
     textTransform: tt,
     color: co,
     "mix-blend-mode": "normal",
+    paddingTop: pt,
   };
   return <h1 style={styler}>{words}</h1>;
 };
