@@ -9,7 +9,9 @@ const News = () => {
   return (
     <Layout>
       <div className="NewsTop">
-        <aside className="newside">Latest news & discussions</aside>
+        <aside className="newside">
+          Latest news <span className="standalone">& discussions</span>{" "}
+        </aside>
 
         {elegants.map((elegant, index) => (
           <Aside key={index} {...elegant} />

@@ -52,6 +52,20 @@ export const recentJobs = [
   },
 ];
 
+export const elegants = [
+  {
+    update: "Our news update",
+    elegant: [
+      "The most elegant expression of Apple",
+      "Watch returns with two iconic materials",
+      "— titanium and ceramic. The most elegant",
+      "expression of Apple Watch returns with two",
+      "iconic materials",
+      "— titanium and ceramic.",
+    ],
+  },
+];
+
 export const newCards = [
   {
     cardTitle: "Graphics Design",
@@ -65,41 +79,16 @@ export const newCards = [
     loation: "Ilorin, Nigeria",
     logo: "./Frame 6446 (copy).svg",
     summary: "Job summary",
-    sumDes: (
-      <ul>
-        <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
-          pellentesque eros nec amet
-        </li>
-        <li>
-          ac, ac, neque, nunc. Sodales felis Lorem ipsum dolor sit amet,
-          consectetur adipiscing
-        </li>
-        <li>elit. Mi pellentesque eros</li>
-      </ul>
-    ),
-    list: (
-      <div>
-        <li>Minimum Qualification</li>
-        <li>Experience Level</li>
-        <li>Experience Length</li>
-      </div>
-    ),
-    qualificationDesc: (
-      <ul>
-        <li>
-          <span style={{ color: "#707070" }}>Diploma</span>
-        </li>
-        <li>
-          <span style={{ color: "#707070" }}>Mid level</span>
-        </li>
-        <li>
-          <span style={{ color: "#707070" }}>4 years</span>
-        </li>
-      </ul>
-    ),
+    sumDes: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros nec amet",
+      "ac, ac, neque, nunc. Sodales felis Lorem ipsum dolor sit amet, consectetur adipiscing",
+      "elit. Mi pellentesque eros",
+    ],
+    list: ["Minimum Qualification", "Experience Level", "Experience Length"],
+    qualificationDesc: ["Diploma", "Mid level", "4 years"],
     icon: "./Icon.svg",
   },
+
   {
     cardTitle: "Chief Security Officer",
     locatype: "Lagos   |    Full-time",
@@ -112,40 +101,16 @@ export const newCards = [
     loation: "Lagos, Nigeria",
     logo: "./image 61.svg",
     summary: "Job summary",
-    sumDes: (
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi</li>
-        <li>
-          pellentesque eros nec amet ac, ac, neque, nunc. Sodales felis Lorem
-        </li>
-        <li>
-          ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque
-          eros
-        </li>
-      </ul>
-    ),
-    list: (
-      <div>
-        <li>Minimum Qualification</li>
-        <li>Experience Level</li>
-        <li>Experience Length</li>
-      </div>
-    ),
-    qualificationDesc: (
-      <ul>
-        <li>
-          <span style={{ color: "#707070" }}>Diploma</span>
-        </li>
-        <li>
-          <span style={{ color: "#707070" }}>Mid level</span>
-        </li>
-        <li>
-          <span style={{ color: "#707070" }}>4 years</span>
-        </li>
-      </ul>
-    ),
+    sumDes: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+      "pellentesque eros nec amet ac, ac, neque, nunc. Sodales felis Lorem",
+      "ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros",
+    ],
+    list: ["Minimum Qualification", "Experience Level", "Experience Length"],
+    qualificationDesc: ["Diploma", "Mid level", "4 years"],
     icon: "./Icon.svg",
   },
+
   {
     cardTitle: "Sales Manager",
     locatype: "Ilorin   |    Full-time",
@@ -158,40 +123,16 @@ export const newCards = [
     loation: "Ilorin, Nigeria",
     logo: "./Frame 6446 (1).svg",
     summary: "Job summary",
-    sumDes: (
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi</li>
-        <li>
-          pellentesque eros nec amet ac, ac, neque, nunc. Sodales felis Lorem
-        </li>
-        <li>
-          ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque
-          eros
-        </li>
-      </ul>
-    ),
-    list: (
-      <div>
-        <li>Minimum Qualification</li>
-        <li>Experience Level</li>
-        <li>Experience Length</li>
-      </div>
-    ),
-    qualificationDesc: (
-      <ul>
-        <li>
-          <span style={{ color: "#707070" }}>Diploma</span>
-        </li>
-        <li>
-          <span style={{ color: "#707070" }}>Mid level</span>
-        </li>
-        <li>
-          <span style={{ color: "#707070" }}>4 years</span>
-        </li>
-      </ul>
-    ),
+    sumDes: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+      "pellentesque eros nec amet ac, ac, neque, nunc. Sodales felis Lorem",
+      "ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros",
+    ],
+    list: ["Minimum Qualification", "Experience Level", "Experience Length"],
+    qualificationDesc: ["Diploma", "Mid level", "4 years"],
     icon: "./Icon.svg",
   },
+
   {
     cardTitle: "Sales Manager",
     locatype: "Ilorin   |    Full-time",
@@ -204,72 +145,34 @@ export const newCards = [
     loation: "Ilorin, Nigeria",
     logo: "./Frame 6446 (2).svg",
     summary: "Job summary",
-    sumDes: (
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi</li>
-        <li>
-          pellentesque eros nec amet ac, ac, neque, nunc. Sodales felis Lorem
-        </li>
-        <li>
-          ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque
-          eros
-        </li>
-      </ul>
-    ),
-    list: (
-      <div>
-        <li>Minimum Qualification</li>
-        <li>Experience Level</li>
-        <li>Experience Length</li>
-      </div>
-    ),
-    qualificationDesc: (
-      <ul>
-        <li>
-          <span style={{ color: "#707070" }}>Diploma</span>
-        </li>
-        <li>
-          <span style={{ color: "#707070" }}>Mid level</span>
-        </li>
-        <li>
-          <span style={{ color: "#707070" }}>4 years</span>
-        </li>
-      </ul>
-    ),
-    icon: "./Icon.svg",
-  },
-];
-
-const stylus = {
-  "text-align": "left",
-  width: "fit-content",
-  "font-family": "Poppins",
-  "font-style": "normal",
-  "font-weight": "400",
-  "font-size": "1.25rem",
-  "line-height": "2rem",
-  "letter-spacing": "0.025rem",
-};
-
-const updateStyles = {
-  "font-family": "Poppins",
-  "font-style": "normal",
-  "font-size": "1.5rem",
-  "line-height": "3.625rem",
-  "font-weight": "700",
-  "letter-spacing": "0.025rem",
-};
-
-export const elegants = [
-  {
-    update: "Our news update",
-    elegant: [
-      "The most elegant expression of Apple",
-      "Watch returns with two iconic materials",
-      "— titanium and ceramic. The most elegant",
-      "expression of Apple Watch returns with two",
-      "iconic materials",
-      "— titanium and ceramic.",
+    sumDes: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+      "pellentesque eros nec amet ac, ac, neque, nunc. Sodales felis Lorem",
+      "ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros",
     ],
+    list: ["Minimum Qualification", "Experience Level", "Experience Length"],
+    qualificationDesc: ["Diploma", "Mid level", "4 years"],
+    icon: "./Icon.svg",
+
+    // list: (
+    //   <div>
+    //     <li>Minimum Qualification</li>
+    //     <li>Experience Level</li>
+    //     <li>Experience Length</li>
+    //   </div>
+    // ),
+    // qualificationDesc: (
+    //   <ul>
+    //     <li>
+    //       <span style={{ color: "#707070" }}>Diploma</span>
+    //     </li>
+    //     <li>
+    //       <span style={{ color: "#707070" }}>Mid level</span>
+    //     </li>
+    //     <li>
+    //       <span style={{ color: "#707070" }}>4 years</span>
+    //     </li>
+    //   </ul>
+    // ),
   },
 ];

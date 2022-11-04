@@ -1,24 +1,23 @@
 import React from "react";
-import Parag from "../../atoms/paragraph/Parag";
 import FirstHeader from "../../atoms/header/FirstHeader";
-// import { elegants } from "../../../Data/objectData";
+import "./aside.scss";
 
-const Aside = ({ letters, update, elegant }) => {
-  const styler = {
-    background: "#00717D",
-    border: "1px solid #FFFFFF",
-    color: " #FFFFFF",
-    "mix-blend-mode": "normal",
-    "padding-left": "1.5rem",
-    "padding-bottom": "2.375rem",
-    width: "fit-content",
-  };
+const Aside = ({ update, elegant }) => {
   return (
-    <aside style={styler}>
-      <FirstHeader words={update} />
-      <ul>
-        <li>{elegant}</li>
-      </ul>
+    <aside className="styler">
+      <FirstHeader
+        words={update}
+        fw="700"
+        fz="1.5rem"
+        pb=".5rem"
+        lh="3.625rem"
+        wi="fit-content"
+      />
+      {elegant.map((item, idex) => (
+        <ul className="stylus">
+          <li key={idex}>{item}</li>
+        </ul>
+      ))}
     </aside>
   );
 };
