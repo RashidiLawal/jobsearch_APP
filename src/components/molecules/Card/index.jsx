@@ -6,7 +6,7 @@ import UnorderedList from "../Unordered_list";
 import Image from "../../atoms/images/Image";
 import Button from "../../atoms/buttons";
 import Span from "../../atoms/Span";
-import './card.scss'
+import "./card.scss";
 
 const Card = ({
   cardTitle,
@@ -25,80 +25,27 @@ const Card = ({
   qualificationDesc,
   icon,
 }) => {
-
-
-const title = {
-'font-family': 'Helvetica Neue',
-'font-style': 'normal',
-'font-weight': '500',
-'font-size': '24px',
-'line-height': '29px',
-width: 'fit-content',
-'letter-spacing': '0.5px',
-color:' #00717D',
-flex: 'none',
-order: '0',
-'flex-grow': '0',
-}
-
-
-const location = {
-  "font-family": "Helvetica Neue",
-  "font-style": "normal",
-  "font-weight": "400",
-  "font-size": "20px",
-  "line-height": "24px",
-  width: "fit-content",
-  display: "flex",
-  "align-items": "center",
-  "letter-spacing": "0.5px",
-  color: "#666666",
-  flex: "none",
-  order: "0",
-  "flex-grow": "0",
-};
-
-
-const companyName = {
-'font-family': 'Helvetica Neue',
-'font-style': 'normal',
-'font-weight': '700',
-'font-size': '24px',
-'line-height': '29px',
-width: "fit-content",
-display: 'flex',
-'align-items': 'center',
-'letter-spacing': '0.5px',
-
-color: '#424242',
-}
-
-
-const profession = {
-  "font-family": "Helvetica Neue",
-  "font-style": "normal",
-  "font-weight": 400,
-  "font-size": "20px",
-  "line-height": "24px",
-  width: "fit-content",
-  "letter-spacing": "0.5px",
-  color: " #666666",
-  display: 'absolute',
-  right: '0',
-};
-
-
-
-
-
-
   return (
     <section className="Cards_holdder">
       <>
         <section className="card_title">
           <div className="job_title">
-            <FirstHeader style={title} words={cardTitle} />
-            <H2header words={locatype} style={location} />
+            <FirstHeader
+              words={cardTitle}
+              fw="500"
+              fz="1.5rem"
+              lh="1.8125rem"
+              wi="fit-content"
+              co="#00717D"
+            />
+            <H2header
+              words={locatype}
+              fw="400"
+              fz="1.25rem"
+              lh="1.5rem"
+              wi="fit-content"
+              co="#666666"
+            />
             <span className="briefy font-['Helvetica Neue']">
               <H2header words={employment} />
               <H2header words={compromise} />
@@ -107,9 +54,30 @@ const profession = {
             </span>
           </div>
           <div className="company_name">
-            <FirstHeader words={company} style={companyName} />
-            <H2header words={nature} style={profession} />
-            <H2header words={loation} style={profession} />
+            <FirstHeader
+              words={company}
+              fz="1.5rem"
+              fw="700"
+              co="#424242"
+              lh="1.8125rem"
+              wi="fit-cotent"
+            />
+            <H2header
+              words={nature}
+              fw="400"
+              fz="1.25rem"
+              lh="1.5rem"
+              wi="fit-content"
+              co="#666666"
+            />
+            <H2header
+              words={loation}
+              fw="400"
+              fz="1.25rem"
+              lh="1.5rem"
+              wi="fit-content"
+              co="#666666"
+            />
           </div>
         </section>
         <section className="card_body">
@@ -133,6 +101,7 @@ const profession = {
         </section>
       </>
     </section>
+    //  <div className="under"></div>
   );
 };
 
